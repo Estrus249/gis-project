@@ -4,6 +4,7 @@
 </template>
 
 <script setup>
+// 修复 Marker 图标丢失问题，适配高德底图
 /**
  * Map.vue — 基于 Vue3 + Leaflet 的地图组件
  *

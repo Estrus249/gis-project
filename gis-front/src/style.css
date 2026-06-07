@@ -1,0 +1,26 @@
+/* ===================== 全局基础样式 ===================== */
+
+/* 清除浏览器默认间距，确保全屏地图无白边 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* 禁止页面滚动条，地图自身处理滚动缩放 */
+}
+
+/* Vue 应用根容器：占满视口，为地图组件提供 100vh 全屏高度 */
+#app {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}

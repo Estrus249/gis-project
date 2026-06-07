@@ -5,3 +5,6 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
 - 已添加重庆江津点位标记与弹窗交互
 # 本次更新：优化地图交互体验
+
+main 分支：测试分叉用
+
